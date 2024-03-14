@@ -3,26 +3,26 @@ import logo from '../Assets/logo.png';
 import './Navbar.css';
 
 const Navbar = () => {
-  // window.onscroll = function () {scrollFunction()};
-  // function scrollFunction() {
-  //   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-  //     document.querySelector(".Navbar").style.padding = "10px 10px";
-  //     document.querySelector(".Navbar").style.backgroundColor = "white";
-  //     document.querySelector(".Navbar").style.boxShadow = "0 4px 6px -6px black";
-  //     document.querySelector(".Navbar").style.color = "black";
-  //     document.querySelector(".Navbar").style.transition = "0.4s";
-  //     document.querySelector(".Navbar").style.position = "fixed";
-  //     document.querySelector(".Navbar").style.width = "100%";
-  //     document.querySelector(".Navbar").style.zIndex = "1000";
-  //   } else {
-  //     document.querySelector(".Navbar").style.padding = "30px 10px";
-  //     document.querySelector(".Navbar").style.backgroundColor = "transparent";
-  //     document.querySelector(".Navbar").style.boxShadow = "none";
-  //     document.querySelector(".Navbar").style.color = "white";
-  //     document.querySelector(".Navbar").style.transition = "0.4s";
-  //     document.querySelector(".Navbar").style.position = "relative";
-  //   }
-  // }
+  window.onscroll = function () {scrollFunction()};
+  function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+      document.querySelector(".Navbar").style.padding = "10px 10px";
+      document.querySelector(".Navbar").style.backgroundColor = "white";
+      document.querySelector(".Navbar").style.boxShadow = "0 4px 6px -6px black";
+      document.querySelector(".Navbar").style.color = "black";
+      document.querySelector(".Navbar").style.transition = "0.4s";
+      document.querySelector(".Navbar").style.position = "fixed";
+      document.querySelector(".Navbar").style.width = "100%";
+      document.querySelector(".Navbar").style.zIndex = "1000";
+    } else {
+      document.querySelector(".Navbar").style.padding = "30px 10px";
+      document.querySelector(".Navbar").style.backgroundColor = "transparent";
+      document.querySelector(".Navbar").style.boxShadow = "none";
+      document.querySelector(".Navbar").style.color = "white";
+      document.querySelector(".Navbar").style.transition = "0.4s";
+      document.querySelector(".Navbar").style.position = "relative";
+    }
+  }
     
   return (
     <div className="Navbar">
